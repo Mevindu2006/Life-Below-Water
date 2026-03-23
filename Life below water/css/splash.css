@@ -1,0 +1,86 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* disables scrolling */
+    font-family: 'Times New Roman';
+}
+
+/* Body Background */
+body {
+    background-image: url('../images/realistic-manta-ray-sea-water (1).jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Container: Centered splash content */
+.splash-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* fill screen vertically */
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+    position:relative;
+}
+/*loader css part */
+.loader {
+    font-family:'Times New Roman';
+    width: 60px;
+    height: 20px;
+    margin: 20px 0;
+}
+/*logo css part*/
+.logo {
+    background-color: black;
+    position: center;
+    top: 20px;
+    right: 20px;
+    width: 80px;
+    height: auto;
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
+}
+
+
+.wave {
+    font-family:'Times New Roman';
+    stroke: rgb(255, 255, 255);
+    stroke-width: 3;
+    animation: wave-animate 1.5s ease-in-out infinite;
+}
+
+@keyframes wave-animate {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-4px); }
+}
+
+h1 {
+    font-family:'Times New Roman';
+    font-size: 400%;
+    margin: 0.05em 0;
+    text-shadow: 0 2px 4px rgb(51, 1, 251);
+}
+
+p {
+    font-family:'Times New Roman';
+    font-size: 130%;
+    margin: 0.5em 0;
+}
+
+p1 {
+    font-family:'Times New Roman';
+    font-size: 105%;
+    color: rgb(255, 255, 255);
+}
+
+li {
+    font-family:'Times New Roman';
+    font-size: 90%;
+    color: rgb(255, 255, 255);
+    margin: 5px;
+
+}

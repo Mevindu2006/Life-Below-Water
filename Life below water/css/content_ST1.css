@@ -1,0 +1,106 @@
+body{
+    background-image: url('../images/portrait-surreal-sea-creature.jpg');
+    height:auto;
+    width:auto;
+    background-position:center;
+    color:#ffffff
+}
+header{
+    width:auto;
+    font-size:20px;
+    margin: 10px;
+    padding:10px
+}
+.menu {
+    top: 100%;
+    background: #e6f3ff98;
+    padding: 10px;
+}
+.menu a {
+    margin: 5px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.menu a:hover {
+    color: #0c6c95;
+}
+img {
+    box-shadow: blueviolet 0px 2px 2px;
+    position:center;
+    border: 2px solid #c61a1a55;
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+.content{
+    background-color:rgba(0, 0, 0, 0.784);
+    height:40%;
+    width:50%;
+    font-family: 'Times New Roman';
+}
+.box {
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 5px;
+}
+.top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #0681b5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.top-btn:hover {
+    background: #045d82;
+}
+/* Make header span full width and look balanced */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 30px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.4);
+}
+
+/* Style nav links */
+.nav-links a {
+    margin-left: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #00bfff;
+}
+
+/* Responsive stack for small screens */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        margin-top: 10px;
+    }
+}

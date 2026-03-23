@@ -1,0 +1,115 @@
+
+
+
+.content-section {
+    height:10%;
+    margin-top: 90px; /* Offset for fixed navbar */
+    padding: 25px;
+}
+.card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.card {
+    border: 1px solid #f3d303;
+    border-radius: 5px;
+    padding: 15px;
+    width: 300px;
+    text-align: center;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 10px;
+}
+.card .caption {
+    font-size: 10px;
+    color: #666;
+    margin-bottom: 10px;
+}
+.card button {
+    background-color: #94d2bd;
+    border: none;
+    padding: 4px, 3px;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #003049;
+    margin: 5px;
+}
+.card button:hover {
+    background-color: #0a9396;
+    color: white;
+}
+.review-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.review-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    width: 300px;
+    text-align: center;
+    background-color: #fff;
+}
+form {
+    margin-top: 20px;
+    text-align: center;
+}
+form textarea {
+    width: 100%;
+    max-width: 600px;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+form button {
+    background-color: #94d2bd;
+    border: none;
+    padding: 1px 2px;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #003049;
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+}
+form button:hover {
+    background-color: #0a9396;
+    color: white;
+}
+.go-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #94d2bd;
+    color: #003049;
+    border: none;
+    padding: 1px 2px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.go-to-top:hover {
+    background-color: #408182;
+    color: white;
+}
+.oceavia-footer {
+    background: linear-gradient(to right, #00294d, #003366);
+    color: #aefeff;
+    padding: 40px 30px;
+    font-family: 'Segoe UI', sans-serif;
+}
