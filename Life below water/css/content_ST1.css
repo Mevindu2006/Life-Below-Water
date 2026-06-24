@@ -98,6 +98,57 @@ img {
     .nav-links {
         margin-top: 10px;
     }
+
+    .content {
+        width: 90%;
+        height: auto;
+        padding: 15px;
+    }
+
+    .navbar {
+        padding: 10px 15px;
+    }
+
+    .logo img {
+        height: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        font-size: 16px;
+        margin: 8px;
+        padding: 8px;
+    }
+
+    .content {
+        width: 95%;
+        height: auto;
+        padding: 12px;
+        font-size: 0.9rem;
+    }
+
+    .menu {
+        padding: 8px;
+    }
+
+    .menu a {
+        display: inline-block;
+        margin: 4px;
+    }
+
+    .nav-links a {
+        margin-left: 0;
+        margin-right: 12px;
+        display: inline-block;
+    }
+
+    .top-btn {
+        bottom: 12px;
+        right: 12px;
+        padding: 8px 14px;
+        font-size: 0.85rem;
+    }
 }
 
 .navbar {

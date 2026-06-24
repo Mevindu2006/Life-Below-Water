@@ -157,7 +157,52 @@ footer {
     color: #cccccc;
 }
 
+/* ===== Responsive: Laptop / small desktop ===== */
+@media (max-width: 1024px) {
+  header.navbar {
+    padding-right: 15px;
+  }
+
+  header.navbar nav {
+    gap: 0.6rem;
+  }
+
+  header.navbar nav a {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.95rem;
+  }
+
+  .footer-about h3 {
+    font-size: 2rem;
+  }
+}
+
+/* ===== Responsive: Tablet ===== */
 @media (max-width: 768px) {
+  header.navbar {
+    flex-wrap: wrap;
+    padding: 10px 15px;
+    min-height: auto;
+  }
+
+  header.navbar .logo {
+    height: auto;
+    font-size: 1.25rem;
+  }
+
+  header.navbar nav {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 8px;
+  }
+
+  header.navbar .profile-btn {
+    padding: 8px 16px;
+    margin-top: 8px;
+  }
+
   .footer-container {
     flex-direction: column;
     align-items: center;
@@ -170,5 +215,43 @@ footer {
 
   .footer-logo img {
     width: 200px;
+  }
+
+  .footer-about h3 {
+    font-size: 1.75rem;
+  }
+
+  .footer-about h4 {
+    font-size: 1.2rem;
+  }
+}
+
+/* ===== Responsive: Mobile ===== */
+@media (max-width: 480px) {
+  header.navbar .logo {
+    font-size: 1.1rem;
+  }
+
+  header.navbar nav a {
+    font-size: 0.85rem;
+    padding: 0.4rem 0.6rem;
+  }
+
+  header.navbar .profile-btn {
+    padding: 6px 14px;
+    font-size: 0.85rem;
+  }
+
+  footer {
+    padding: 1.5rem 1rem 1rem;
+    font-size: 0.85rem;
+  }
+
+  .footer-logo img {
+    width: 160px;
+  }
+
+  .footer-about h3 {
+    font-size: 1.5rem;
   }
 }

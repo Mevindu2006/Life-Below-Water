@@ -25,3 +25,52 @@ header {
     margin-bottom: 20px;
     border-radius: 10px;
 }
+
+/* ===== Responsive: Tablet ===== */
+@media (max-width: 1024px) {
+    .section {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    .banner {
+        height: 220px;
+    }
+
+    .section {
+        max-width: 92%;
+        padding: 15px;
+    }
+}
+
+/* ===== Responsive: Mobile ===== */
+@media (max-width: 480px) {
+    header {
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 1.25rem;
+    }
+
+    .banner {
+        height: 160px;
+        margin: 0;
+    }
+
+    .section {
+        max-width: 100%;
+        padding: 12px;
+        border-radius: 6px;
+        margin-bottom: 12px;
+    }
+}

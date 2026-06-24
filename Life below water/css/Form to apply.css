@@ -47,3 +47,56 @@ button {
 button:hover {
     background-color: #004d40;
 }
+
+/* ===== Responsive: Tablet ===== */
+@media (max-width: 1024px) {
+    .section {
+        max-width: 85%;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 15px;
+    }
+
+    .banner {
+        height: 160px;
+    }
+
+    .section {
+        max-width: 90%;
+        padding: 15px;
+    }
+
+    input, select, textarea {
+        padding: 7px;
+    }
+}
+
+/* ===== Responsive: Mobile ===== */
+@media (max-width: 480px) {
+    header {
+        padding: 12px;
+    }
+
+    .banner {
+        height: 120px;
+        margin: 0;
+    }
+
+    .section {
+        max-width: 100%;
+        padding: 12px;
+        border-radius: 6px;
+    }
+
+    label {
+        font-size: 0.9rem;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px 20px;
+    }
+}

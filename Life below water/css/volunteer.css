@@ -113,3 +113,73 @@ form button:hover {
     padding: 40px 30px;
     font-family: 'Segoe UI', sans-serif;
 }
+
+/* ===== Responsive: Tablet ===== */
+@media (max-width: 1024px) {
+    .card,
+    .review-card {
+        width: 280px;
+    }
+}
+
+@media (max-width: 768px) {
+    .content-section {
+        margin-top: 80px;
+        padding: 15px;
+    }
+
+    .card-grid,
+    .review-grid {
+        gap: 18px;
+    }
+
+    .card,
+    .review-card {
+        width: 45%;
+        min-width: 220px;
+    }
+
+    .oceavia-footer {
+        padding: 30px 20px;
+    }
+}
+
+/* ===== Responsive: Mobile ===== */
+@media (max-width: 480px) {
+    .content-section {
+        margin-top: 70px;
+        padding: 12px;
+    }
+
+    .card-grid,
+    .review-grid {
+        gap: 15px;
+    }
+
+    .card,
+    .review-card {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .card button,
+    form button {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0;
+    }
+
+    form textarea {
+        max-width: 100%;
+    }
+
+    .go-to-top {
+        padding: 8px 14px;
+        font-size: 0.9rem;
+    }
+
+    .oceavia-footer {
+        padding: 25px 15px;
+        font-size: 0.9rem;
+    }
+}

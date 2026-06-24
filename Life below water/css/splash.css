@@ -84,3 +84,56 @@ li {
     margin: 5px;
 
 }
+
+/* ===== Responsive: Tablet ===== */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 280%;
+    }
+
+    p {
+        font-size: 115%;
+    }
+
+    .logo {
+        width: 60px;
+    }
+
+    .splash-container {
+        padding: 15px;
+    }
+}
+
+/* ===== Responsive: Mobile ===== */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 180%;
+    }
+
+    p {
+        font-size: 100%;
+    }
+
+    p1 {
+        font-size: 95%;
+    }
+
+    li {
+        font-size: 85%;
+    }
+
+    .logo {
+        width: 50px;
+        top: 10px;
+        right: 10px;
+    }
+
+    .splash-container {
+        padding: 10px;
+    }
+
+    .loader {
+        width: 45px;
+        height: 16px;
+    }
+}
